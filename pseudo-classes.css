@@ -1,0 +1,18 @@
+ul {
+    display: flex;
+    flex-direction: row; 
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    display: block;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.n-child div ~ section:nth-child(odd) {
+    border: 1px solid black;
+}
